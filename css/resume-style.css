@@ -1,0 +1,281 @@
+/* Global styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: 'Courier New', serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px;
+  margin-top: 0;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #22a79c;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  overflow: hidden;
+}
+.hide {
+   display: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: #22a79c;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #014b5f;
+  color: #dddddd;
+}
+/* header */
+header {
+  padding-top: 50px;
+  position: relative;
+}
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+.profile-img {
+  border-radius: 80%;
+}
+
+.content-wrap img {
+  width: 325px;
+  height: 325px;
+}
+
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/* Navigation
+-------------------------*/
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /*z-index: 100;*/
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+/* Work Experience
+-------------------------*/
+.work {
+  background: #ffffff;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+/* ---- Skills Section ----*/
+.skills {
+  background: linear-gradient(rgba(168, 208, 245, 0.8), rgba(52, 105, 105, 0.5));
+  background-size: cover
+}
+p + h3 {
+  margin-top: 45px;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+.exptertise .content-wrap{
+  padding: 0;
+}
+
+
+/* ---- Education Section ----*/
+.education {
+  background: linear-gradient(rgba(168, 208, 245, 0.8), rgba(52, 105, 105, 0.5));
+  background-size: cover;
+}
+p + h3 {
+  margin-top: 45px;
+}
+
+
+/* ---- Media ----*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 300px;
+  }
+}
+
+h1{
+  text-align: left;
+}
+
+.form-style {
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+
+.form-style label{
+  margin:0 0 3px 0;
+  padding:0px;
+  display:block;
+  font-weight: bold;
+}
+
+.form-style .required{
+  color:red;
+}
+.form-style input[type=submit], .form-style input[type=reset]{
+  background: #4eb5f1;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+  background: #4eb5f1;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.form-style .field-textarea{
+  height: 100px;
+}
+.form-style input[type=text], 
+.form-style input[type=email],
+textarea{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 7px;
+  margin:0px;
+  outline: none;  
+}
+.form-style .long{
+  width: 100%;
+}
+.form-style input[type=text]:focus, 
+.form-style input[type=email]:focus,
+.form-style textarea:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+.error{
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+/* ---- Photos for Assignment 6 ----*/
+#app {
+  width: 95%;
+  margin: 15px;
+  text-align: center;
+}
+
+.image_div {
+  display: inline;
+}
+
+.image_div img {
+  background-color: whitesmoke;
+  width: 20%;
+  padding: 1.5%;
+  margin: 1.5%;
+
+}
+
+/* ---- Audio and Video Centering ----*/
+.video {
+  text-align: center;
+}
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
