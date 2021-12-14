@@ -17,27 +17,27 @@ let app = new Vue({
         beforepicFiveIsVisible: false,
 
         // image one data, including filenames and alt text
-        FirstpicBeforeHover: "images/nalacuddle-before.jpg",
+        FirstpicBeforeHover: "images/nalacuddle-before.JPG",
         FirstpicAltTxtBefore: "Nala and I lookin pretty relaxed",
-        FirstpicAfterHover: "images/nalacuddle-after.jpg",
+        FirstpicAfterHover: "images/nalacuddle-after.JPG",
         FirstpicAltTxtAfter: "Nala and I lookin happy",
 
         // image two data, including filenames and alt text
-        SecondpicBeforeHover: "images/modelpriyam-before.png",
+        SecondpicBeforeHover: "images/modelpriyam-before.PNG",
         SecondpicAltTxtBefore: "Priyam looking homeless",
-        SecondpicAfterHover: "images/modelpriyam-after.png",
+        SecondpicAfterHover: "images/modelpriyam-after.PNG",
         SecondpicAltTxtAfter: "Priyam looking like a model",
 
         // image three data, including filenames and alt text
-        ThirdpicBeforeHover: "images/Lincoln-before.jpg",
+        ThirdpicBeforeHover: "images/Lincoln-before.JPG",
         ThirdpicAltTxtBefore: "Priyam posing for a shot",
-        ThirdpicAfterHover: "images/Lincoln-after.jpg",
+        ThirdpicAfterHover: "images/Lincoln-after.JPG",
         ThirdpicAltTxtAfter: "Priyam posing better for a shot",
 
         // image four data, including filenames and alt text
-        FourthpicBeforeHover: "images/Boston-before.jpg",
+        FourthpicBeforeHover: "images/Boston-before.JPG",
         FourthpicAltTxtBefore: "Boston Calling With Kylie",
-        FourthpicAfterHover: "images/Boston-after.jpg",
+        FourthpicAfterHover: "images/Boston-after.JPG",
         FourthpicAltTxtAfter: "After Taking A Sip of Beer",
 
     },
