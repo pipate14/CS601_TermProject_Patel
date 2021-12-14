@@ -29,7 +29,7 @@ let app = new Vue({
         SecondpicAltTxtAfter: "Priyam looking like a model",
 
         // image three data, including filenames and alt text
-        ThirdpicBeforeHover: "images/Lincoln-before.JPG",
+        ThirdpicBeforeHover: "images/Lincoln-before.jpg",
         ThirdpicAltTxtBefore: "Priyam posing for a shot",
         ThirdpicAfterHover: "images/Lincoln-after.jpg",
         ThirdpicAltTxtAfter: "Priyam posing better for a shot",
