@@ -17,9 +17,9 @@ let app = new Vue({
         beforepicFiveIsVisible: false,
 
         // image one data, including filenames and alt text
-        FirstpicBeforeHover: "images/nalacuddle-before.JPG",
+        FirstpicBeforeHover: "images/nalacuddle-before.jpg",
         FirstpicAltTxtBefore: "Nala and I lookin pretty relaxed",
-        FirstpicAfterHover: "images/nalacuddle-after.JPG",
+        FirstpicAfterHover: "images/nalacuddle-after.jpg",
         FirstpicAltTxtAfter: "Nala and I lookin happy",
 
         // image two data, including filenames and alt text
